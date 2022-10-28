@@ -9,7 +9,7 @@ class TestEjercicio1(unittest.TestCase):
         numero = False
         while numero == False:
             try:
-                if e1.n > 74:
+                if e1.n > 20:
                     return print("Numero demasiado grande o demasiado pequeño")
                 else:
                     numero == True

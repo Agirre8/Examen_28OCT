@@ -1,7 +1,7 @@
 from turtle import end_fill
 from Ejercicios.Ej1 import Ejercicio1 as ej1
 from Ejercicios.Ej2 import Ejercicio2 as ej2
-from Ejercicios.Ej4 import Ejercicio4 as ej4
+from Ejercicios.Ej3 import Ejercicio3 as ej3
 
 def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
@@ -21,11 +21,16 @@ def ejecutar():
 
 
     elif n==3:
-        return
+        a = ej3.Nave("Estrella de la muerte", 500, 8998, 69420)
+        b = ej3.Nave("Halcon milenario", 1234, 1059, 1919191)
+        c = ej3.Nave("Lanzador imperial", 9999, 222, 37201)
+        d = ej3.Nave("Destructor estelar", 3721, 3939, 77777)
+        e = ej3.Nave("Supremacy", 56565, 12198, 66666)
+        ej3.ordenar_nombres()
+ 
 
     elif n==4:
-        ej4.ordenar_nombres()
- 
+        return
 
     elif n==5:
         return
