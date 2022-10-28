@@ -1,10 +1,4 @@
-class Nave():
-
-    def __init__(self, nombre, largo, tripulacion, pasajeros):
-        self.nombre=nombre
-        self.largo=largo
-        self.tripulacion=tripulacion  
-        self.pasajeros=pasajeros 
+from nave import *
         
 def ordenar_nombres():
     nombres = [a.nombre, b.nombre, c.nombre, d.nombre, e.nombre]
