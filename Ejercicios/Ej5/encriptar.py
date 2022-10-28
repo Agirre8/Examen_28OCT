@@ -1,7 +1,7 @@
 import hashlib
 
 def main():
-    clave = str(input("Introduce la contraseña a cifrar: ")).encode('utf-8')
+    clave = str(input("Introduce la contraseña a cifrar: ")).encode('ascii')
 
     md5 = hashlib.md5(clave).hexdigest()
     print("Hash MD5: %s" % str(md5))
