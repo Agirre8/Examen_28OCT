@@ -5,9 +5,9 @@ def main():
         resolverhash = str(input("Hash a resolver: "))
         type = input("Indica el tipo de encriptación: ")
 
-        resolvedor = open("10-million-password-list-top-1000000.txt", 'r')
+        resolvedor = open("", 'r')
         for x in resolvedor.readlines():
-            a = x.strip("\n").encode('utf-8')
+            a = x.strip("\n").encode('ascii')
             if type == 'md5':
                 a = hashlib.md5(a).hexdigest()
             elif type == 'sha1':

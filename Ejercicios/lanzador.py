@@ -1,6 +1,7 @@
 from turtle import end_fill
 from Ejercicios.Ej1 import Ejercicio1 as ej1
 from Ejercicios.Ej2 import Ejercicio2 as ej2
+from Ejercicios.Ej4 import Ejercicio4 as ej4
 
 def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
@@ -23,7 +24,8 @@ def ejecutar():
         return
 
     elif n==4:
-        return
+        ej4.ordenar_nombres()
+ 
 
     elif n==5:
         return
