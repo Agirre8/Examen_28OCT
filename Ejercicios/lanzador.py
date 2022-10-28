@@ -1,12 +1,12 @@
 from turtle import end_fill
-from Ejercicios.Ej1 import FuncionOrdenar 
+from Ejercicios.Ej1 import Ejercicio1 as ej1
 
 def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")
 
     if n == 1:
         n = 4
-        FuncionOrdenar(n,'A','B','C')
+        ej1.FuncionOrdenar(n,'A','B','C')
 
     elif n==2:
         return

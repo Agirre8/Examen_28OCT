@@ -6,7 +6,7 @@ def FuncionOrdenar(n , inicio, destino, auxiliar):
     print (f"Mover disco {n} desde inicio {inicio} al destino {destino}")
     FuncionOrdenar(n-1, auxiliar, destino, inicio)
 
-n=5
+n=4
 FuncionOrdenar(n,'A','B','C')
 
    

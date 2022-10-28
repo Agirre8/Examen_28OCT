@@ -8,7 +8,7 @@ def crear_matriz(self):
 def determinant_fast(A):
     # Section 1: Establish n parameter and copy A
     n = len(A)
-    AM = copy_matrix(A)
+    AM = crear_matriz(A)
  
     # Section 2: Row ops on A to get in upper triangle form
     for fd in range(n): # A) fd stands for focus diagonal
