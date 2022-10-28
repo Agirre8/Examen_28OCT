@@ -23,5 +23,3 @@ def ejecutar():
     else:
         print("El numero de ejercicio que has insertado es incorrecto!!!!")
 
-if __name__ == "__main__":
-    ejecutar()
