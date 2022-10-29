@@ -1,7 +1,10 @@
-from turtle import end_fill
+import sys
 from Ejercicios.Ej1 import Ejercicio1 as ej1
 from Ejercicios.Ej2 import Ejercicio2 as ej2
 from Ejercicios.Ej3 import Ejercicio3 as ej3
+from Ejercicios.Ej4 import Ejercicio4 as ej4
+
+sys.path.insert(0,"/Users/smite/Documents/GitHub/Examen-28OCT/Ejercicios/Ej3/Ejercicio3")
 
 def ejecutar():
     n = input("Inserte el numero de el ejercicio que quieras ejecutar:")

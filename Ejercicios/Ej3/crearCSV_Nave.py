@@ -19,10 +19,10 @@ def crear_csv():
     with open('naves.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
 
-        # write the header
+        # escribir los encabezados
         writer.writerow(header)
 
-        # write multiple rows
+        # escribir las columnas
         writer.writerows(data)
     
 crear_csv()

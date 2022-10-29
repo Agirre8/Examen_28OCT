@@ -2,7 +2,7 @@ import sys
 import unittest
 import Ejercicio1 as e1
 
-sys.path.insert(0,"/Users/smite/Documents/GitHub/Prueba-28-oct")
+sys.path.insert(0,"/Users/smite/Documents/GitHub/Examen-28OCT")
 
 class TestEjercicio1(unittest.TestCase):
     def excepcion_discos(self):
