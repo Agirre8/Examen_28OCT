@@ -30,7 +30,7 @@ def ordenar_nombres():
     print(nombres)
 
 def ordenar_nombres_1():
-    nombres = [df.iloc[:, 0]]
+    nombres = [iloc[:, 0]]
     for i in naves:
         nombres.append(i["Nombre"])
     nombres.sort()
@@ -50,11 +50,10 @@ d = Nave("Destructor estelar", 3721, 3939, 77777)
 e = Nave("Supremacy", 56565, 12198, 66666)
 
 
-if __name__ == "__main__":
+def ejecucion3():
         
-    """"
     ordenar_nombres()
-    """
+
 
     imprimirNaves()
     ordenar_nombres_1()
