@@ -34,14 +34,28 @@ def definirNombres():
 def ordenar1():
     nombresOrdenados = []
     nombresOrdenados == leerCSV_2.dfsort_values("Nombre", ascendindg=True)#de mayor a menor
+    print(nombresOrdenados)
     nombresOrdenados == leerCSV_2.dfsort_values("Nombre", ascendindg=False)#de menor a mayor
+    print(nombresOrdenados)
+
 
 #determinar naves con mayor capacidad con pandas
 
 def cincoMayores():
     pasajeros = []
     pasajeros == leerCSV_2.dfsort_values("pasajeros", ascendindg=True)#ordenar pasajeros
-    
+    pasajeros == pasajeros [0:4]
+    print(pasajeros)
+
+#nave que requiere mayor cantidad de tripulantes con pandas
+
+def mayortripulantes():
+    tripulantes = []
+    tripulantes == leerCSV_2.dfsort_values("tripulacion", ascendindg=True)#ordenar pasajeros
+    tripulantes == tripulantes [0]
+    print (tripulantes)
+
+
 def imprimirNaves():
     return print(naves)
 
@@ -75,12 +89,15 @@ e = Nave("Supremacy", 56565, 12198, 66666)
 
 
 def ejecucion3():
-        
+    #ejecucion normal
     ordenar_nombres()
-
-
     imprimirNaves()
     ordenar_nombres_1()
+    #ejecucion con pandas
+    leerCSV_1()
+    ordenar1()
+    cincoMayores()
+    mayortripulantes()
 
 
 
