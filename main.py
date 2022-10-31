@@ -1,4 +1,5 @@
-from Ejercicios.lanzador import ejecutar 
+
+from lanzador import *
 
 if __name__ == "__main__":
     ejecutar()

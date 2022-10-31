@@ -5,7 +5,7 @@ import pandas as pd
 from collections import defaultdict
 
 actual_path = pathlib.Path(__file__).parent.absolute()
-with open('naves.csv', newline='') as f:
+with open('/Users/smite/Documents/GitHub/Examen_28OCT/Ejercicios/Ej3/naves.csv', newline='') as f:
     reader = csv.reader(f)
     naves = list(reader)
 
