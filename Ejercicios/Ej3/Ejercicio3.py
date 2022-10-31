@@ -1,13 +1,14 @@
 from nave import *
 import pathlib
 import csv
-import pandas
+import pandas as pd
 from collections import defaultdict
 
 actual_path = pathlib.Path(__file__).parent.absolute()
 with open('naves.csv', newline='') as f:
     reader = csv.reader(f)
     naves = list(reader)
+
 
 def leerCSV_1():
     columns = defaultdict(list) # each value in each column is appended to a list
@@ -18,6 +19,29 @@ def leerCSV_1():
             for (k,v) in row.items(): # go over each column name and value 
                 columns[k].append(v)
 
+#leer el csv con pandas
+
+def leerCSV_2():
+    df = pd.read_csv("naves.csv")
+
+#crear lista nombres con pandas
+def definirNombres():
+    nombres1 = []  
+    nombres1 == leerCSV_2.df["Nombre"]
+
+#ordenar nombres con pandas
+
+def ordenar1():
+    nombresOrdenados = []
+    nombresOrdenados == leerCSV_2.dfsort_values("Nombre", ascendindg=True)#de mayor a menor
+    nombresOrdenados == leerCSV_2.dfsort_values("Nombre", ascendindg=False)#de menor a mayor
+
+#determinar naves con mayor capacidad con pandas
+
+def cincoMayores():
+    pasajeros = []
+    pasajeros == leerCSV_2.dfsort_values("pasajeros", ascendindg=True)#ordenar pasajeros
+    
 def imprimirNaves():
     return print(naves)
 
