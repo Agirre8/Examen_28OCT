@@ -26,12 +26,7 @@ def ejecutar():
 
 
     elif n==3:
-        a = ej3.Nave("Estrella de la muerte", 500, 8998, 69420)
-        b = ej3.Nave("Halcon milenario", 1234, 1059, 1919191)
-        c = ej3.Nave("Lanzador imperial", 9999, 222, 37201)
-        d = ej3.Nave("Destructor estelar", 3721, 3939, 77777)
-        e = ej3.Nave("Supremacy", 56565, 12198, 66666)
-        ej3.ordenar_nombres()
+        ej3.ejecucion3()
  
 
     elif n==4:
