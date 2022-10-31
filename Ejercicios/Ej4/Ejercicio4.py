@@ -23,5 +23,7 @@ def res(p1, p2):
 def div(p1, p2):
     return p1 / p2
 
+def ejecucion4():
+    
+    print("Resultado: ", mult(Poly1, Poly2))
 
-print("Resultado: ", mult(Poly1, Poly2))

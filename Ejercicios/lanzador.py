@@ -3,6 +3,8 @@ from Ejercicios.Ej1 import Ejercicio1 as ej1
 from Ejercicios.Ej2 import Ejercicio2 as ej2
 from Ejercicios.Ej3 import Ejercicio3 as ej3
 from Ejercicios.Ej4 import Ejercicio4 as ej4
+from Ejercicios.Ej5 import Ejercicio5 as ej5
+
 
 sys.path.insert(0,"/Users/smite/Documents/GitHub/Examen-28OCT/Ejercicios/Ej3/Ejercicio3")
 
@@ -33,10 +35,10 @@ def ejecutar():
  
 
     elif n==4:
-        return
+        ej4.ejecucion4()
 
     elif n==5:
-        return
+        ej5.ejecucion5()
 
     else:
         print("El numero de ejercicio que has insertado es incorrecto!!!!")
